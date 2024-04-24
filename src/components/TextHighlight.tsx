@@ -80,6 +80,7 @@ export const TextHighlight = ({
       <div className="TextHighlight__parts">
         {rects.map((rect, index) => (
           <div
+            id={highlight.id}
             onMouseOver={onMouseOver}
             onMouseOut={onMouseOut}
             onClick={onClick}
